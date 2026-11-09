@@ -1,0 +1,6 @@
+# Builds the module tests against the engine and runs SimCheck (shared workflow in MealKit-Modules).
+name: Module
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  check:
+    uses: MealKit-Engine/MealKit-Modules/.github/workflows/module.yml@v2

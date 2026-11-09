@@ -1,0 +1,10 @@
+# MealKit source module (docs/MODULES.md in the engine). Read by the engine build and tools\module.ps1.
+@format module 1
+name objects
+version 0.1.0
+engine 0.9
+title Basic objects
+summary Trigger volumes, path platforms and item spawn points, deterministic and physics-free
+tags gameplay
+icon gameplay
+requires
